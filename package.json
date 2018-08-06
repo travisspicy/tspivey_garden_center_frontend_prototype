@@ -1,0 +1,24 @@
+{
+  "name": "tspiveygcfront",
+  "version": "1.0.0",
+  "description": "its pretty cool",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travisspicy/tspivey_garden_center_frontend_prototype.git"
+  },
+  "keywords": [
+    "torisutans",
+    "cool",
+    "memes"
+  ],
+  "author": "Tristan Spivey",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/travisspicy/tspivey_garden_center_frontend_prototype/issues"
+  },
+  "homepage": "https://github.com/travisspicy/tspivey_garden_center_frontend_prototype#readme"
+}
