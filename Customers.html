@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>HTML and CSS</title>
+	<link rel="stylesheet" type="text/css" href="Customers.css" />
+	<!-- <script src="main.js"></script> -->
+	<meta name="Customers page for the Pet Emporium API" content="This is an extenstion page, containing information about customers who have made purchases at the pet emporium">
+	<meta name="keywords" content="HTML,CSS,js">
+	<meta name="author" content="Tristan Spivey">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="create">
+		<form>
+			<h3 class="block">Create a customer account</h3>
+			<div class="block">
+				<label for="firstName">First Name</label>
+				<input type="text" name="firstName" id="firstName" class="required" />
+			</div>
+			<div class="block">
+				<label for="lastName">Last Name</label>
+				<input type="text" name="lastName" id="lastName" class="required" />
+			</div>
+			<div class="block">
+				<label for="street">Street Address</label>
+				<input type="text" name="street" id="street" class="required" />
+			</div>
+			<div class="block">
+				<label for="city">City</label>
+				<input type="text" name="city" id="city" class="required" />
+			</div>
+			<div class="block">
+				<label for="state">State</label>
+				<input type="text" name="state" id="state" class="required" />
+			</div>
+			<div class="block">
+				<label for="zip">Zip Code</label>
+				<input type="text" name="zip" id="zip" class="required" maxlength="5" />
+			</div>
+			<div class="btn">
+				<input type="submit" name="submitBtn" value="Create">
+			</div>
+		</form>
+
+		<form>
+			<h3 class="block">Update a Customer Account</h3>
+
+			<div class="block">
+				<label for="customerId">Customer ID</label>
+				<input type="text" name="Customer ID" id="Customer ID" class="required" />
+			</div>
+			<div class="block">
+				<label for="firstName">First Name</label>
+				<input type="text" name="firstName" id="firstName" class="required" />
+			</div>
+			<div class="block">
+				<label for="lastName">Last Name</label>
+				<input type="text" name="lastName" id="lastName" class="required" />
+			</div>
+			<div class="block">
+				<label for="street">Street Address</label>
+				<input type="text" name="street" id="street" class="required" />
+			</div>
+			<div class="block">
+				<label for="city">City</label>
+				<input type="text" name="city" id="city" class="required" />
+			</div>
+			<div class="block">
+				<label for="state">State</label>
+				<input type="text" name="state" id="state" class="required" />
+			</div>
+			<div class="block">
+				<label for="zip">Zip Code</label>
+				<input type="text" name="zip" id="zip" class="required" maxlength="5" />
+			</div>
+			<div class="btn">
+				<input type="submit" name="submitBtn" value="Update">
+			</div>
+		</form>
+
+		<form>
+			<h3 class="block">Delete A Customer By String ID</h3>
+			<div class="block">
+				<label for="id">ID</label>
+				<input type="text" name="id" id="id" class="required" />
+			</div>
+			<div class="block">
+				<label for="adminId">Admin ID</label>
+				<input type="text" name="adminId" id="adminId" class="required" />
+			</div>
+			<div class="btn">
+				<input type="submit" name="submitBtn" value="Delete">
+			</div>
+		</form>
+
+		<form>
+			<h3 class="block">Find All Customers or Find a Customer By ID</h3>
+			<div class="block">
+				<label for="findById">Customer ID</label>
+				<input type="text" name="findById" id="findById" class="required" />
+			</div>
+			<div>
+				<input class="btn" type="submit" name="submitBtn" value="Find All">
+		</form>
+
+		</div>
+
+</body>
+
+</html>

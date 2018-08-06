@@ -1,0 +1,17 @@
+body{
+	background: #fffcf0;
+}
+.loginblock{
+	width: 200px;
+	z-index: 1;
+	top: 200px;
+	text-align: center;
+	background: #434343;
+}
+
+.block{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	display: block;
+}
