@@ -16,9 +16,11 @@
     "memes"
   ],
   "author": "Tristan Spivey",
-  "license": "UNLICENSED",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/travisspicy/tspivey_garden_center_frontend_prototype/issues"
   },
-  "homepage": "https://github.com/travisspicy/tspivey_garden_center_frontend_prototype#readme"
+  "dependencies": {
+    "moment": "2.22.1"
+  }
 }
