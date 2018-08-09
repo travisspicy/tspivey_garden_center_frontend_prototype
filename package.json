@@ -1,26 +1,22 @@
 {
-  "name": "tspiveygcfront",
+  "name": "gcapifrontend",
   "version": "1.0.0",
-  "description": "its pretty cool",
+  "description": "TO BE UPDATED",
   "main": "index.js",
   "scripts": {
-    "test": "run"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/travisspicy/tspivey_garden_center_frontend_prototype.git"
   },
   "keywords": [
-    "torisutans",
-    "cool",
-    "memes"
+    "api"
   ],
   "author": "Tristan Spivey",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/travisspicy/tspivey_garden_center_frontend_prototype/issues"
   },
-  "dependencies": {
-    "moment": "2.22.1"
-  }
+  "homepage": "https://github.com/travisspicy/tspivey_garden_center_frontend_prototype#readme"
 }
